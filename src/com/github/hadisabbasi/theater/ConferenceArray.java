@@ -41,8 +41,7 @@ public class ConferenceArray {
         for (int i = 0; i < conferences.length; i++) {
             if (conferences[i] != null && !conferences[i].isDeleted()) {
                 Conference conference = conferences[i];
-                System.out.println("نام: " + conference.getName() + ", روز و ساعت: " + conference.getTurn()
-                        + ", تعداد افراد: " + conference.getPeopleCount());
+                System.out.println("نام: " + conference.getName() + ", روز و ساعت: " + conference.getTurn() + ", تعداد افراد: " + conference.getPeopleCount());
             }
         }
     }
